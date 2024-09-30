@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nocturno - La Sombra que Vuela</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #222; /* Fondo oscuro para un ambiente nocturno */
+            color: #fff; /* Texto blanco para mejor contraste */
+        }
+
+        h1 {
+            color: #00ff00; /* Verde neón para destacar el título */
+        }
+
+        h2 {
+            color: #ccc;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        li {
+            margin: 10px;
+        }
+
+        section {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nocturno</h1>
+    <h2>La Sombra que Vuela</h2>
+
+    <section>
+        <h3>Habilidades Especiales</h3>
+        <ul>
+            <li>Vuelo</li>
+            <li>Superfuerza</li>
+            <li>Maestría en artes marciales: karate, kung fu, jiu-jitsu</li>
+            <li>Experto en armas: espadas, arcos, pistolas</li>
+            <li>Percepción mejorada</li>
+            <li>Agilidad y reflejos sobrehumanos</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Experiencia</h3>
+        <ul>
+            <li>Vigilante nocturno en Gotham City durante los últimos 5 años</li>
+            <li>Misiones encubiertas</li>
+            <li>Rescate de rehenes</li>
+            <li>Combate contra supervillanos</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Equipo</h3>
+        <ul>
+            <li>Traje especial</li>
+            <li>Arsenal: garras retráctiles, granadas de humo, dispositivos de rastreo</li>
+            <li>Vehículo aéreo personal</li>
+        </ul>
+        <img src="superheroe.jfif" alt="Traje de Nocturno">
+    </section>
+
+    <section>
+        <h3>Motivación</h3>
+        <p>Desde temprana edad, he sentido una profunda necesidad de ayudar a los demás y proteger a los más débiles. La oscuridad me proporciona la cobertura necesaria para operar sin ser detectado, y me permite utilizar mis habilidades para hacer del mundo un lugar mejor.</p>
+    </section>
+
+    <section>
+        <h3>Disponibilidad</h3>
+        <p>Disponible para trabajar exclusivamente durante las horas nocturnas. Flexible en cuanto a la frecuencia de las misiones y dispuesto a colaborar con otros héroes.</p>
+    </section>
+
+    <script>
+        // Ejemplo de interacción: Mostrar/ocultar una sección al hacer clic en un botón
+        const botonMasInfo = document.createElement('button');
+        botonMasInfo.textContent = 'Más sobre mi misión';
+        botonMasInfo.addEventListener('click', () => {
+            const seccionMision = document.createElement('section');
+            seccionMision.innerHTML = 'Mi misión es proteger a la ciudad de las fuerzas del mal y crear un mundo más justo.';
+            document.body.appendChild(seccionMision);
+        });
+        document.body.appendChild(botonMasInfo);
+    </script>
+</body>
+</html>
